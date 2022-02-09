@@ -1,13 +1,18 @@
 .app--wrapper{
-    height: 853px;
-    width: 550px;
+    height: 100%;
+    width: 100%;
     background-color: #fff;
     border-radius: 9px;
 }
 .app--cards{
+    gap: 1%;
     margin-left: 37px;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+.app--cards::-webkit-scrollbar {
+    display: none;
 }

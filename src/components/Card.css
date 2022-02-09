@@ -5,12 +5,15 @@
     font-weight: bold;
 }
 .card--wrapper{
+    flex:0 0 auto;
     margin-top: 40px;
-    font-size: 12px;
-    font-weight: 300;
-    width: 176px;
+    font-size: 13px;
+    font-weight: 400;
+    width: auto;
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
 }
 .card--image{
     height: 235px;
@@ -19,14 +22,22 @@
     margin-bottom: 5px;
 }
 .card--text{
+    text-overflow: ellipsis;
     height: 65px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .card--rating{
-    width: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+.card--badge{
+    position: absolute;
+    margin: 4px 4px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }

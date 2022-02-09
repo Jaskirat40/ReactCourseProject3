@@ -1,12 +1,12 @@
 .hero--wrapper{
+    width: auto;
     padding-top: 20px;
     display:flex;
     flex-direction: column;
 }
 .hero--banner{
     align-self: center;
-    height: 232px;
-    width: 395.91px;
+    width: 40%;
 }
 .hero--content{
     margin-top: 20px;

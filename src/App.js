@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from '../src/components/Navbar'; 
 import Hero from '../src/components/Hero';
 import Card from '../src/components/Card';
+import Data from './Data'
 
 export default function App() {
   return (
@@ -9,9 +10,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <div className='app--cards'>
-        <Card />
-        <Card />
-        <Card />
+        {Data.map(data => <Card key={data.id} item={data} />)}
       </div>
     </div>
   );
