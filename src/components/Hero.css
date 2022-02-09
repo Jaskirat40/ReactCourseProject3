@@ -1,0 +1,28 @@
+.hero--wrapper{
+    padding-top: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.hero--banner{
+    align-self: center;
+    height: 232px;
+    width: 395.91px;
+}
+.hero--content{
+    margin-top: 20px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hero--text1{
+    margin-left: 36px;
+    font-size: 36px; 
+    font-weight: 700;
+    width: 347px;
+}
+.hero--text2{
+    margin-left: 36px;
+    font-size: 18px;
+    width: 320px;
+} 

@@ -1,0 +1,32 @@
+.gray{
+    color: #918E9B;
+}
+.bold{
+    font-weight: bold;
+}
+.card--wrapper{
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+}
+.card--image{
+    height: 235px;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
+.card--text{
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card--rating{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
